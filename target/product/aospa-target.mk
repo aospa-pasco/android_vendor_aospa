@@ -195,6 +195,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.sys.disable_rescue=true
 
+ifneq ($(TARGET_BUILD_VARIANT),eng)
+# Disable extra StrictMode features on all non-engineering builds
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    persist.sys.strictmode.disable=true
+endif
+
 # Sensitive Phone Numbers
 ifneq ($(TARGET_NO_TELEPHONY), true)
 PRODUCT_COPY_FILES += \
