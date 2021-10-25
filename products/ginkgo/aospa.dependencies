@@ -1,0 +1,50 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "aospa-ginkgo/device_xiaomi_ginkgo",
+        "target_path":  "device/xiaomi/ginkgo",
+        "revision":     "sapphire"
+    },
+    {
+        "remote":       "github",
+        "repository":   "aospa-ginkgo/vendor_xiaomi_ginkgo",
+        "target_path":  "vendor/xiaomi/ginkgo",
+        "revision":     "sapphire"
+    },
+    {
+        "remote":       "github",
+        "repository":   "aospa-ginkgo/kernel_xiaomi_ginkgo",
+        "target_path":  "kernel/msm-4.14",
+        "revision":     "sapphire"
+    },
+    {
+        "remote":       "github",
+        "repository":   "aospa-ginkgo/hardware_qcom_audio",
+        "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
+        "revision":     "sapphire"
+    },
+    {
+        "remote":       "github",
+        "repository":   "aospa-ginkgo/hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "sapphire"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "aospa-ginkgo/hardware_qcom_gps",
+        "target_path":  "hardware/qcom/gps",
+        "revision":     "sapphire"
+    },
+    {
+        "remote":       "github",
+        "repository":   "aospa-ginkgo/hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "sapphire"
+    },
+    {
+        "remote":       "github",
+        "repository":   "aospa-ginkgo/android_packages_resources_devicesettings",
+        "target_path":  "packages/resources/devicesettings",
+        "revision":     "sapphire"
+    }
+]
