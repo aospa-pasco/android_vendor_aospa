@@ -16,6 +16,7 @@
 PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/alioth/aospa_alioth.mk \
     $(LOCAL_DIR)/apollo/aospa_apollo.mk \
+    $(LOCAL_DIR)/ginkgo/aospa_ginkgo.mk \
     $(LOCAL_DIR)/lisa/aospa_lisa.mk \
     $(LOCAL_DIR)/lmi/aospa_lmi.mk \
     $(LOCAL_DIR)/mini5g/aospa_mini5g.mk \
@@ -26,6 +27,7 @@ PRODUCT_MAKEFILES += \
 COMMON_LUNCH_CHOICES += \
     aospa_alioth-userdebug \
     aospa_apollo-userdebug \
+    aospa_ginkgo-userdebug \
     aospa_lisa-userdebug \
     aospa_lmi-userdebug \
     aospa_mini5g-userdebug \
