@@ -1,0 +1,56 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "Pascoato/android_device_xiaomi_lisa",
+        "target_path":  "device/xiaomi/lisa",
+        "revision":     "sapphire"
+    },
+    {
+        "remote":       "github",
+        "repository":   "ghostrider-reborn/android_device_xiaomi_K9-sepolicy",
+        "target_path":  "device/xiaomi/K9-sepolicy",
+        "revision":     "sapphire"
+    },
+    {
+        "remote":       "github",
+        "repository":   "Pascoato/android_kernel_xiaomi_lisa",
+        "target_path":  "kernel/xiaomi/lisa",
+        "revision":     "sapphire"
+    },
+    {
+        "remote":       "github",
+        "repository":   "Pascoato/android_vendor_xiaomi_lisa",
+        "target_path":  "vendor/xiaomi/lisa",
+        "revision":     "sapphire"
+    },
+    {
+        "remote":       "github",
+        "repository":   "aospa-pasco/hardware_qcom_audio",
+        "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
+        "revision":     "sapphire-888"
+    },
+    {
+        "remote":       "github",
+        "repository":   "aospa-pasco/hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "sapphire-888"
+    },
+    {
+        "remote":       "github",
+        "repository":   "aospa-pasco/hardware_qcom_gps",
+        "target_path":  "hardware/qcom/gps",
+        "revision":     "sapphire-888"
+    },
+    {
+        "remote":       "github",
+        "repository":   "aospa-pasco/hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "sapphire-888"
+    },
+    {
+        "remote":       "github",
+        "repository":   "LineageOS/android_packages_resources_devicesettings",
+        "target_path":  "packages/resources/devicesettings",
+        "revision":     "lineage-19.1"
+    }
+]
