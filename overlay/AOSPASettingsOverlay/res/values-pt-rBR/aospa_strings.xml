@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2016-2021 Paranoid Android
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Paranoid Android version -->
+    <string name="aospa_version">Versão da Paranoid Android</string>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Deslizar para Capturar a Tela</string>
+    <string name="three_finger_gesture_summary">Deslize 3 dedos na tela para baixo para realizar uma captura de tela</string>
+
+    <!-- Advanced Reboot -->
+    <string name="global_actions_advanced_reboot_title">Reinicialização avançada</string>
+    <string name="global_actions_advanced_reboot_summary">Mostrar opções de reinicialização avançada no menu de energia</string>
+
+    <!-- Display tap to wake custom summary -->
+    <string name="tap_to_wake_summary_aospa">Toque duas vezes em qualquer parte da tela para ativar o dispositivo</string>
+
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Evitar despertar acidental</string>
+    <string name="proximity_wake_summary">Verificar o sensor de proximidade antes de ligar a tela</string>
+
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Reprodução inteligente</string>
+    <string name="adaptive_playback_disabled_summary">Desativado</string>
+    <string name="adaptive_playback_timeout_title">Tempo limite de</string>
+    <string name="adaptive_playback_timeout_none">Ilimitado</string>
+    <string name="adaptive_playback_timeout_none_summary">Ativado (sem limite de tempo)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 segundos</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Ativado (30 segundos)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minuto</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Ativado (1 minuto)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minutos</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Ativado (2 minutos)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minutos</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Ativado (5 minutos)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minutos</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Ativado (10 minutos)</string>
+
+    <!-- Volume rocker music control -->
+    <string name="volume_button_music_control_title">Controle de Reprodução</string>
+    <string name="volume_button_music_control_summary">Se a tela estiver desligada, pressionar e segurar os botões de volume irá pular a música atual</string>
+
+    <!-- Custom Vibration fragment -->
+    <string name="vibration_preferences">Vibração &amp; háptico</string>
+    <string name="summary_vibration_preferences">Alterar intensidade, padrão e mais</string>
+    <string name="keywords_vibration_preferences">padrão da vibração, intensidade da vibração, chamada, háptico, toque, força da vibração</string>
+    <string name="ringtone_vibration_pattern">Padrão de vibração do toque</string>
+    <string name="vibration_intensity_ringer">Intensidade da vibração do toque</string>
+    <string name="vibration_intensity_notification">Intensidade da vibração das notificações</string>
+    <string name="vibration_intensity_disabled">Desativado</string>
+    <string name="vibration_intensity_light">Leve</string>
+    <string name="vibration_intensity_medium">Média</string>
+    <string name="vibration_intensity_strong">Forte</string>
+    <string name="vibration_intensity_custom">Personalizado</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">Lanterna rápida</string>
+    <string name="power_button_torch_summary">Quando a tela estiver desligada, manter pressionado o botão de energia irá ativar a lanterna</string>
+
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Ícones da barra de status</string>
+    <string name="icon_manager_summary">Controle a visibilide dos ícones na barra de status</string>
+
+     <!-- DT2S on statusbar-->
+    <string name="double_tap_sleep_title">Toque para apagar</string>
+    <string name="double_tap_sleep_summary">Toque duas vezes em qualquer lugar na barra de status para desligar a tela</string>
+
+    <!-- Columbus Gestures -->
+    <string name="columbus_gesture_detected">Toque rápido detectado.</string>
+    <string name="columbus_gesture_enrollment_complete">Concluído</string>
+    <string name="columbus_gesture_enrollment_do_it_later">Agora não</string>
+    <string name="columbus_gesture_enrollment_settings">Abrir configurações</string>
+    <string name="columbus_gesture_enrollment_try_it">Testar</string>
+    <string name="columbus_gesture_training_action_no_selection_error">Selecione uma ação para realizar</string>
+    <string name="columbus_gesture_training_action_text">Escolha o que deve acontecer quando você usa o Toque rápido. Você pode mudar essa opção mais tarde nas configurações.</string>
+    <string name="columbus_gesture_training_action_title">Escolher opção do Toque rápido</string>
+    <string name="columbus_gesture_training_enrolling_first_gesture">… Toque duplo 1 de 2 detectado</string>
+    <string name="columbus_gesture_training_enrolling_first_gesture_text">Vamos tentar de novo. Toque rapidamente duas vezes na parte de trás do smartphone.</string>
+    <string name="columbus_gesture_training_enrolling_first_gesture_title">Muito bem!</string>
+    <string name="columbus_gesture_training_enrolling_second_gesture">… Toque duplo 2 de 2 detectado</string>
+    <string name="columbus_gesture_training_enrolling_second_gesture_text">Você já começou a usar o Toque rápido</string>
+    <string name="columbus_gesture_training_enrolling_second_gesture_title">Isso mesmo!</string>
+    <string name="columbus_gesture_training_enrolling_text">Toque rapidamente duas vezes na parte de trás do smartphone.</string>
+    <string name="columbus_gesture_training_enrolling_title">Teste o Toque rápido</string>
+    <string name="columbus_gesture_training_finished_text">Para mudar a força de toque necessária para o Toque rápido, acesse as configurações.</string>
+    <string name="columbus_gesture_training_finished_title">Você configurou o Toque rápido</string>
+    <string name="columbus_gesture_training_intro_text_accidental">Você tocou duas vezes na parte de trás do seu dispositivo, o que permite o uso do Assistente em qualquer lugar. Personalize esse gesto nas configurações.</string>
+    <string name="columbus_gesture_training_intro_text_suw">Faça uma captura de tela, veja as notificações ou inicie outra ação com dois toques.</string>
+    <string name="columbus_gesture_training_intro_title">Usar o Toque rápido para abrir as ações rápidas</string>
+    <string name="columbus_gesture_training_launch_no_selection_error">Selecione um app para abrir</string>
+    <string name="columbus_gesture_training_launch_text">Escolha o app que você quer abrir usando o Toque rápido.</string>
+    <string name="columbus_gesture_training_launch_title">Escolha um app para abrir</string>
+    <string name="columbus_launch_app_extra_widget_a11y_label">Configurações de atalho do app %1$s</string>
+    <string name="columbus_launch_settings_activity_title">Configurações do Toque rápido</string>
+    <string name="columbus_name">Toque rápido</string>
+    <string name="columbus_radio_button_extra_widget_a11y_label">Configurações para %1$s</string>
+    <string name="columbus_setting_action_assistant_title">Acessar o assistente digital</string>
+    <string name="columbus_setting_action_launch_summary_no_selection">Nenhum app selecionado</string>
+    <string name="columbus_setting_action_launch_summary_not_installed">App não instalado</string>
+    <string name="columbus_setting_action_launch_title">Abrir app</string>
+    <string name="columbus_setting_action_notification_title">Mostrar notificações</string>
+    <string name="columbus_setting_action_open_app_title">Abrir app</string>
+    <string name="columbus_setting_action_overview_title">Ver apps recentes</string>
+    <string name="columbus_setting_action_play_pause_title">Abrir ou pausar mídia</string>
+    <string name="columbus_setting_action_screenshot_title">Fazer uma captura de tela</string>
+    <string name="columbus_setting_actions_title">Toque duas vezes na parte de trás do smartphone para</string>
+    <string name="columbus_setting_additional_settings_title">Intensidade do Toque rápido</string>
+    <string name="columbus_setting_app_selection_help_text">Selecione um app para abrir ao tocar duas vezes na parte de trás do smartphone. Se você desinstalar o app, o Toque rápido será desativado até que outro app seja selecionado.</string>
+    <string name="columbus_setting_app_shortcut_selection_help_text">Selecione o que acontece quando você abre o app usando o Toque rápido.</string>
+    <string name="columbus_setting_enable_switch_title">Usar o Toque rápido</string>
+    <string name="columbus_setting_sensitivity_title">Exigir toques mais fortes</string>
+
+    <!-- Gestures Settings -->
+    <string name="offscreen_gesture_title">Gestos com a tela desligada</string>
+    <string name="offscreen_gesture_summary">Desenhe padrões na tela para executar ações</string>
+    <string name="keywords_gestures">tela toque desenhar deslizar dedo</string>
+
+    <string name="gestures_master">Usar gestos com a tela desligada</string>
+    <string name="gestures_double_tap">Toque duplo</string>
+    <string name="gestures_single_tap">Toque único</string>
+    <string name="gestures_draw_v">Desenhar V</string>
+    <string name="gestures_draw_inverse_v">Desenhar V inverso</string>
+    <string name="gestures_draw_o">Desenhar O</string>
+    <string name="gestures_draw_m">Desenhar M</string>
+    <string name="gestures_draw_w">Desenhar W</string>
+    <string name="gestures_draw_s">Desenhar S</string>
+    <string name="gestures_draw_arrow_left">Desenhar  &lt;</string>
+    <string name="gestures_draw_arrow_right">Desenhar  &gt;</string>
+    <string name="gestures_one_finger_swipe_up">Deslizar um dedo para cima</string>
+    <string name="gestures_one_finger_swipe_right">Deslizar um dedo para a direita</string>
+    <string name="gestures_one_finger_swipe_down">Deslizar um dedo para baixo</string>
+    <string name="gestures_one_finger_swipe_left">Deslizar um dedo para a esquerda</string>
+    <string name="gestures_two_finger_swipe">Deslizar dois dedos</string>
+
+    <string name="gestures_disabled">Desativado</string>
+    <string name="gestures_wake_device">Ligar a tela do dispositivo</string>
+    <string name="gestures_pulse_ambient_display">Pulsar exibição ambiente</string>
+    <string name="gestures_toggle_flashlight">Ligar/Desligar lanterna</string>
+    <string name="gestures_toggle_airplane_mode">Ligar/Desligar modo avião</string>
+    <string name="gestures_play_pause_music">Reproduzir/Pausar música</string>
+    <string name="gestures_next_music">Próxima música</string>
+    <string name="gestures_previous_music">Música anterior</string>
+    <string name="gestures_open_camera">Abrir câmera</string>
+    <string name="gestures_open_dialer">Abrir discador</string>
+
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Aplicativos de tela cheia</string>
+    <string name="display_cutout_force_fullscreen_summary">Ignore o espaço de entalhe para aplicativos selecionados</string>
+
+     <!-- Per-app volume -->
+    <string name="app_volume">Volume individual de aplicativos</string>
+
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Vincular volume do toque &amp; notificações</string>
+
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Inverter a Barra de Navegação</string>
+    <string name="navbar_invert_info">Isso irá inverter os botões \"Voltar\" e \"Recents\" na barra de navegação</string>
+
+    <!-- Gesture bar length -->
+    <string name="gesture_navbar_length_preference_title">Comprimento da barra de gestos</string>
+    <string name="gesture_navbar_length_preference_short_label">Curta</string>
+    <string name="gesture_navbar_length_preference_long_label">Longa</string>
+
+    <!-- Immersive Navigation -->
+    <string name="gesture_navbar_category_title">Barra de Gestos</string>
+    <string name="immersive_navigation_title">Ocultar a barra de gestos</string>
+    <string name="immersive_navigation_summary">Oculte a barra de gestos e o preenchimento da barra de navegação.</string>
+
+    <!-- Quick Settings quick pulldown -->
+    <string name="quick_settings_quick_pull_down_title">Puxar as configurações rápidas</string>
+    <string name="quick_settings_quick_pull_down_summary">Puxe a barra de status do lado direito para expandir as configurações rápidas</string> 
+
+    <!-- Gesture settings categories -->
+    <string name="gesture_navigation_category_title">Navegação</string>
+    <string name="gesture_screen_category_title">Tela</string>
+    <string name="gesture_power_button_category_title">Botão de energia</string>
+    <string name="gesture_volume_buttons_category_title">Botões de volume</string>
+
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Usar preto amoled</string>
+    <string name="system_black_theme_summary">Forçar o sistema a usar o preto amoled ao invés do dark monet</string>
+
+</resources>
