@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2016 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+
+<resources>
+
+    <!-- Settings title to show Google Now at -1 screen on launcher. [CHAR LIMIT=50] -->
+    <string name="title_show_google_app">Deslizar para acessar o app do Google</string>
+
+    <!-- Settings message explaining when the -1 screen is available on an LTR device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_left">Deslize para a esquerda na tela inicial para abrir o app do Google</string>
+
+    <!-- Suggestions -->
+    <string name="suggestion_pref_screen_title">Sugestões</string>
+    <string name="suggestion_pref_screen_desc">Sugestões para a tela inicial &amp; gaveta de aplicativos</string>
+
+    <!-- Gestures -->
+    <string name="pref_dt_gesture_title">Gesto de toque-duplo</string>
+    <string name="pref_dt_gesture_summary">Dê um toque-duplo em qualquer área vazia da tela inicial para desligar a tela</string>
+
+    <!-- Edit workspace -->
+    <string name="settings_lock_layout_title">Bloquear layout</string>
+    <string name="settings_lock_layout_summary_on">Os icones e widgets não poderão ser adicionados/removidos ou movidos da tela inicial</string>
+    <string name="settings_lock_layout_summary_off">Os icones e widgets poderão ser adicionados/removidos ou movidos da tela inicial</string>
+    <string name="settings_edit_widgets_error">Não é possivel adicionar widgets na tela inicial</string>
+
+    <!-- Hide labels -->
+    <string name="desktop_show_labels">Exibir nomes de aplicativos na tela inicial</string>
+    <string name="drawer_show_labels">Exibir nomes de aplicativos na gaveta de aplicativos</string>
+
+    <!-- Settings Categories -->
+    <string name="category_icon">Icones</string>
+    <string name="category_misc">Diversos</string>
+
+    <!-- Kill App recents action shortcut -->
+    <string name="recent_task_option_kill_app">Forçar o fechamento</string>
+    <string name="recents_app_killed">Aplicativo fechado</string>
+
+    <!-- Show top shadow -->
+    <string name="show_top_shadow">Exibir uma Sombra no Topo do Plano de Fundo</string>
+
+    <!-- Hotseat searchbar -->
+    <string name="label_search">Pessquisar</string>
+    <string name="label_lens">Google Lens</string>
+    <string name="label_voice_search">Pesquisa por Voz</string>
+    <string name="dock_search_title">Barra de Pesquisa do Google</string>
+    <string name="dock_search_summary">Exibir a Barra de Pesquisa abaixo da Dock</string>
+
+    <!-- Recents Lens -->
+    <string name="action_lens">Lens</string>
+    <string name="show_lens_button_title">Exibir botão do Google Lens</string>
+    <string name="show_lens_button_summary">Substituir o botão de Captura de Tela pelo botão do Google Lens, se disponível</string>    
+
+    <!-- Navigation bar -->
+    <string name="pref_allow_phone_taskbar">Usar barra de tarefas</string>
+    <string name="pref_allow_phone_taskbar_desc">Para abrir e alternar aplicativos em qualquer lugar</string>
+
+    <!-- Grid Recents -->
+    <string name="pref_allow_phone_overview_grid">Exibir grade de aplicativos recentes</string>
+    <string name="pref_allow_phone_overview_grid_desc">Mais aplicativos na visão geral</string>
+
+</resources>

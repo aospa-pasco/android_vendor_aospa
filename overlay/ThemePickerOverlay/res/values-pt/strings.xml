@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2016-2021 Paranoid Android
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="wallpaper_color_tab">Cores do Plano de Fundo</string>
+    <string name="wallpaper_color_title">Cor do Plano de Fundo</string>
+    <string name="preset_color_tab">Cores Básicas</string>
+    <string name="color_changed">Cor alterada</string>
+
+    <string name="icon_pack_title">Ícones do Sistema</string>
+
+    <string name="font_title">Fonte do Sistema</string>
+    <string name="font_preview_card_content_description">Prévia da Fonte</string>
+
+</resources>

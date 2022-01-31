@@ -27,4 +27,5 @@ PRODUCT_PACKAGES += \
     FontRobotoOverlay \
     FontUrbanistOverlay \
     FontSlateForOnePlus \
+    ThemePickerOverlay \
     ParanoidLauncherOverlay
