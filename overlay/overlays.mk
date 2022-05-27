@@ -25,4 +25,5 @@ PRODUCT_PACKAGES += \
     FontManropeOverlay \
     FontRobotoOverlay \
     FontUrbanistOverlay \
+    FontSlateForOnePlus \
     ParanoidLauncherOverlay
