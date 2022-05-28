@@ -14,6 +14,7 @@
 
 # Overlays
 PRODUCT_PACKAGES += \
+    AndroidBlackThemeOverlay \
     AOSPAFrameworksOverlay \
     AOSPAImmersiveNavigationOverlay \
     AOSPASettingsOverlay \
