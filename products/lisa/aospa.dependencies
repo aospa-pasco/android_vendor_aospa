@@ -1,7 +1,7 @@
 [
     {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_device_xiaomi_lisa",
+        "remote":       "github",
+        "repository":   "pascoato/android_device_xiaomi_lisa",
         "target_path":  "device/xiaomi/lisa",
         "revision":     "topaz"
     },
@@ -30,8 +30,8 @@
         "revision":     "topaz-888"
     },
     {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_kernel_xiaomi_lahaina",
+        "remote":       "github",
+        "repository":   "pascoato/android_kernel_xiaomi_lahaina",
         "target_path":  "kernel/xiaomi/lahaina",
         "revision":     "topaz"
     },
